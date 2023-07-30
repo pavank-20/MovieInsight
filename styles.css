@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+.input-group-text,
+.form-control {
+    border-radius: 25px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-outline-info {
+    border-color: #007bff;
+    color: #007bff;
+    border-radius: 25px;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#pretty img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#pretty h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+#pretty p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#movieDetails h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+#movieDetails p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#movieDetails ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#movieDetails li {
+    margin-bottom: 8px;
+}
